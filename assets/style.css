@@ -1,4 +1,14 @@
-
+html {
+    /* font-size: 10px; */
+  
+    /* 10px / 16px = 0.625 = 62.5% */
+    /* Percentage of user's browser font-size setting */
+    font-size: 62.5%;
+    overflow-x: hidden;
+  
+    /* Does NOT work on Safari */
+    /* scroll-behavior: smooth; */
+  }
 
 .body {
     display: flex;
@@ -10,3 +20,78 @@
     font-family: "Rubik", sans-serif;
 
 }
+
+.h1 {
+    margin-top: 30px;
+    font-size: 36px;
+}
+
+#board {
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 20px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    cursor: pointer;
+    background-color: #fff;
+  }
+
+  .cell:nth-child(odd) {
+    background-color: #000;
+  }
+  
+  .cell.X {
+    color: var(--player1-color);
+  }
+  
+  .cell.O {
+    color: var(--player2-color);
+  }
+  
+  #scoreboard {
+    margin-top: 20px;
+  }
+  
+  #scoreboard h2 {
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 28px;
+  }
+  
+  #scoreboard div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  #scoreboard span {
+    font-size: 25px;
+  }
+  
+  .playerone {
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+    color: #555555;
+    background-color: aqua;
+    margin-left: 50px;
+    margin-right: 100px;
+    border-radius: 10px;
+  }
+  
+  .playertwo {
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+    color: #555555;
+    background-color: rgb(26, 255, 0);
+    margin-right: 50px;
+    margin-left: 100px;
+    border-radius: 10px;
+  }
+  
