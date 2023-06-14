@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&family=Roboto:wght@300;400;500;700&family=Rubik:wght@400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
+    <body>
+        <h1>Tic Tac Toe</h1>
+    
+        <div class="game-area">
+          <div id="board" class="board-game">
+            <div class="cell" onclick="makeMove(0)"></div>
+            <div class="cell" onclick="makeMove(1)"></div>
+            <div class="cell" onclick="makeMove(2)"></div>
+            <div class="cell" onclick="makeMove(3)"></div>
+            <div class="cell" onclick="makeMove(4)"></div>
+            <div class="cell" onclick="makeMove(5)"></div>
+            <div class="cell" onclick="makeMove(6)"></div>
+            <div class="cell" onclick="makeMove(7)"></div>
+            <div class="cell" onclick="makeMove(8)"></div>
+          </div>
+        </div>
+        <div id="scoreboard">
+          <h2>Scoreboard</h2>
+          <div>
+            <span id="player1" class="playerone">Player 1: 0</span>
+            <span id="player2" class="playertwo">Player 2: 0</span>
+          </div>
+        </div>
+        <script src="script.js"></script>
+      </body>
+</html>
