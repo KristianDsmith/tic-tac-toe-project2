@@ -57,12 +57,12 @@ function endGame(winner) {
       player1Score++;
       document.getElementById(
         "player1"
-      ).innerHTML = `Player 1: ${player1Score}`;
+      ).innerHTML = `Player X: ${player1Score}`;
     } else {
       player2Score++;
       document.getElementById(
         "player2"
-      ).innerHTML = `Player 2: ${player2Score}`;
+      ).innerHTML = `Player O: ${player2Score}`;
     }
   }
   resetBoard();
