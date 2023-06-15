@@ -3,7 +3,7 @@
 - Created a simple Tic Tac Toe game for 2 players to play. 
 - Vibrant with colours and to work on all screen sizes. 
 
-![multiscreen size](/assets/multiscreen-image.png)
+![multiscreen size](/assets/images/multiscreen-image.png)
 
 ## Features
 - a simple cleane layout with grid lines without outer boarder to create the game board.
@@ -22,12 +22,12 @@
 **HTML**
 - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/).
 
-![W#C Validator](/assets/html-validator.png)
+![W#C Validator](/assets/images/html-validator.png)
 
 **CSS**
 - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/).
 
-![Jigsaw Validator](/assets/w3c-css-validator.png)
+![Jigsaw Validator](/assets/images/w3c-css-validator.png)
 
 **Accessibility and performance**
 - Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
@@ -52,4 +52,4 @@
 - The live link can be found here - https://kristiandsmith.github.io/tic-tac-toe-project2/
 
 ## Wireframes
-![wireframe](/assets/wireframe-tic-tac-toe.png)
+![wireframe](/assets/images/wireframe-tic-tac-toe.png)
