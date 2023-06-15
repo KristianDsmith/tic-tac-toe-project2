@@ -25,6 +25,12 @@ html {
     font-size: 36px;
     color: #555;
   }
+
+  .rules {
+    font-size: 15px;
+    color: #555;
+    text-align: center;
+  }
   
   #board {
     width: 300px;
