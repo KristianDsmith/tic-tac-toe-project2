@@ -3,12 +3,20 @@
 - Created a simple Tic Tac Toe game for 2 players to play. 
 - Vibrant with colours and to work on all screen sizes. 
 
-![multiscreen size](/assets/images/multiscreen-image.png)
+![multiscreen size](/assets/images/multiscreen-ttc.png)
 
 ## Features
 - a simple cleane layout with grid lines without outer boarder to create the game board.
+
+![multiscreen size](/assets/images/game-board.png)
+
 - player 1 and player 2 score baord in player colours. 
+
+![multiscreen size](/assets/images/colours.png)
+
 - The X and O are also represented in the player 1 and Player 2 colours.
+
+![multiscreen size](/assets/images/score-board.png)
 
 ## Testing
 
@@ -35,9 +43,9 @@
 ![JS Hint](/assets/images/jshint.png.png)
 
 **Accessibility and performance**
-- Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
+- Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable. SEo is fixed but lighthouse would not load so had to use this screen shot. 
 
-![lighthouse test score](/assets/images/lightouse-score.png)
+![lighthouse test score](/assets/images/lighthouse.jpg)
 
 ## Content
 
