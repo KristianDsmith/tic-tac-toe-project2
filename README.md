@@ -19,7 +19,7 @@
 **CSS**
 - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/).
 
-![Jigsaw Validator](/assets/images/jigsaw-validator.png)
+![Jigsaw Validator](/assets/w3c-css-validator.png)
 
 **Accessibility and performance**
 - Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
