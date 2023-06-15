@@ -90,20 +90,24 @@ html {
   }
   
   .playerone {
-    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+    padding: 2rem 2rem 2rem 2rem;
     color: #555555;
     background-color: rgb(133, 232, 232);
-    margin-left: 50px;
-    margin-right: 100px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 10px;
   }
   
   .playertwo {
-    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+    padding: 2rem 2rem 2rem 2rem;
     color: #555555;
     background-color: rgb(191, 126, 207);
-    margin-right: 50px;
-    margin-left: 100px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 10px;
   }
   
