@@ -16,7 +16,7 @@ html {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #e4e3bb;
+    background-color: #ffffed;
     font-family: "Rubik", sans-serif;
   }
   
@@ -92,7 +92,7 @@ html {
   .playerone {
     padding: 2rem 2rem 2rem 2rem;
     color: #555555;
-    background-color: rgb(133, 232, 232);
+    background-color: rgb(51, 247, 247);
     margin-right: 20px;
     margin-left: 20px;
     margin-top: 10px;
@@ -103,7 +103,7 @@ html {
   .playertwo {
     padding: 2rem 2rem 2rem 2rem;
     color: #555555;
-    background-color: rgb(191, 126, 207);
+    background-color: rgb(212, 145, 228);
     margin-right: 20px;
     margin-left: 20px;
     margin-top: 10px;

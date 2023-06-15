@@ -1,4 +1,4 @@
-window.addEventListener("DOMContentLoaded", (event) => {
+
     // These variables provide elements for the game logic and keeping score. 
 
 let board = ["", "", "", "", "", "", "", "", ""];
@@ -84,12 +84,12 @@ function resetBoard() {
 
 document.documentElement.style.setProperty(
   "--player1-color",
-  "rgb(133, 232, 232)"
+  "rgb(0, 119, 255)"
 );
 document.documentElement.style.setProperty(
   "--player2-color",
-  "rgb(191, 126, 207)"
+  "rgb(199, 16, 245)"
 );
 
-  });
+
 
