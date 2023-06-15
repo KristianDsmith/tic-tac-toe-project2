@@ -111,5 +111,9 @@ html {
     border-radius: 10px;
   }
   
-
+@media  (max-width: 500px) {
+    #scoreboard span {
+        font-size: 15px;
+    }
+}
   
