@@ -29,6 +29,11 @@
 
 ![Jigsaw Validator](/assets/images/w3c-css-validator.png)
 
+**Javascript
+- one error found with makeMove unused. This is being used and is connected to the HTML file. [(JS Hint) validator](https://jshint.com/).
+
+![JS Hint](/assets/images/jshint.png.png)
+
 **Accessibility and performance**
 - Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
 

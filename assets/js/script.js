@@ -1,5 +1,4 @@
-
-    // These variables provide elements for the game logic and keeping score. 
+// These variables provide elements for the game logic and keeping score. 
 
 let board = ["", "", "", "", "", "", "", "", ""];
 let currentPlayer = "X";
