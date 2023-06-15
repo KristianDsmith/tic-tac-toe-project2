@@ -52,3 +52,4 @@
 - The live link can be found here - https://kristiandsmith.github.io/tic-tac-toe-project2/
 
 ## Wireframes
+![wireframe](/assets/wireframe-tic-tac-toe.png)
