@@ -1,8 +1,12 @@
+// These variables provide elements for the game logic and keeping score. 
+
 let board = ["", "", "", "", "", "", "", "", ""];
 let currentPlayer = "X";
 let gameOver = false;
 let player1Score = 0;
 let player2Score = 0;
+
+// makeMove function racks updating game board, checking for winsor draws and managing game state based on moves made. 
 
 function makeMove(index) {
   if (board[index] === "" && !gameOver) {
@@ -18,6 +22,8 @@ function makeMove(index) {
     }
   }
 }
+
+// checkWin function checks possible wining cmbinations and which player has won the game. 
 
 function checkWin(player) {
   const winCombos = [
@@ -36,6 +42,9 @@ function checkWin(player) {
     });
   });
 }
+
+// endGame function handles the game ending logic. displaying alert for a win or draw. 
+// reseting the board for a new game. 
 
 function endGame(winner) {
   gameOver = true;
@@ -58,6 +67,8 @@ function endGame(winner) {
   resetBoard();
 }
 
+// Resets the game board, current player and game state. 
+
 function resetBoard() {
   board = ["", "", "", "", "", "", "", "", ""];
   currentPlayer = "X";
@@ -67,6 +78,8 @@ function resetBoard() {
     cell.classList.remove("X", "O");
   });
 }
+
+// Apply's player colours to the lemenets with classes playerone and playertwo.
 
 document.documentElement.style.setProperty(
   "--player1-color",
