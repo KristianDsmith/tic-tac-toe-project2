@@ -14,7 +14,7 @@
 **HTML**
 - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/).
 
-![W#C Validator](/assets/images/w3c-validator.png)
+![W#C Validator](/assets/html-validator.png)
 
 **CSS**
 - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/).
