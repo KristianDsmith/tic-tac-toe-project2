@@ -6,8 +6,16 @@
 ![multiscreen size](/assets/multiscreen-image.png)
 
 ## Features
+- a simple cleane layout with grid lines without outer boarder to create the game board.
+- player 1 and player 2 score baord in player colours. 
+- The X and O are also represented in the player 1 and Player 2 colours.
 
 ## Testing
+
+- I have tested this website using google dev tools and inspected the page and game play. 
+- Checked for different screen sizes, 1344px, 1200px, 944px, 704px and 544px screens. 
+- The look and feel of the game works really well on diffrent browsers and screen sizes. 
+
 
 ## Validator Testing
 
@@ -29,8 +37,10 @@
 ## Content
 
 **Text**
+- The text for the all pages written by Kristian Smith
 
 **Google Fonts**
+- Google fonts were used to import the 'Rubik' font into the style.css file which is used on all pages throughout the project.
 
 ## Deployment
 
