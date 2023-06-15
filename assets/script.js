@@ -1,4 +1,5 @@
-// These variables provide elements for the game logic and keeping score. 
+window.addEventListener("DOMContentLoaded", (event) => {
+    // These variables provide elements for the game logic and keeping score. 
 
 let board = ["", "", "", "", "", "", "", "", ""];
 let currentPlayer = "X";
@@ -89,3 +90,6 @@ document.documentElement.style.setProperty(
   "--player2-color",
   "rgb(191, 126, 207)"
 );
+
+  });
+
